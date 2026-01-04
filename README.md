@@ -26,7 +26,7 @@ A full-featured, real-time Markdown editor and preview application built with **
 
 ## Installation
 
-\`\`\`bash
+bash
 # Clone repository
 git clone <your-new-repo-url>
 cd markdown-preview-vue
@@ -39,11 +39,11 @@ npm run dev
 
 # Build for production
 npm run build
-\`\`\`
+
 
 ## Project Structure
 
-\`\`\`
+
 src/
 ├── components/       # Reusable Vue components
 ├── composables/      # Vue composition functions (like React hooks)
@@ -52,19 +52,18 @@ src/
 ├── types/           # TypeScript type definitions
 ├── router/          # Vue Router configuration
 └── utils/           # Utility functions
-\`\`\`
+
 
 ## Author
 
 **Emmanuel Ajibola**
-- GitHub: [@Emiderex](https://github.com/Emiderex)
+- GitHub: [@bolammanuel](https://github.com/bolammanuel)
 - Email: ajbolae123@gmail.com
 
 ## Conversion Note
 
-This project was converted from React TypeScript to Vue 3 + TypeScript as part of a learning exercise. The original React version can be found at: [markdown-preview-app](https://github.com/Emiderex/markdown-preview-app)
+This project was converted from React TypeScript to Vue 3 + TypeScript as part of a learning exercise. The original React version can be found at: [markdown-preview-app](https://github.com//bolammanuel/markdown-preview-app)
 
 ## License
 
 MIT License
-\`\`\`
