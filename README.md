@@ -1,48 +1,70 @@
-# markdown-preview-vue
+# Markdown Preview Application (Vue.js)
 
-This template should help get you started developing with Vue 3 in Vite.
+A full-featured, real-time Markdown editor and preview application built with **Vue 3** and **TypeScript**, showcasing modern frontend development practices.
 
-## Recommended IDE Setup
+## Features
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### Core Functionality
+- ✅ Real-time Markdown Preview
+- ✅ Side-by-Side Layout (Desktop)
+- ✅ Responsive Design
+- ✅ Complete Markdown Support
+- ✅ File Import/Export (.md files)
+- ✅ Local Storage Persistence
+- ✅ API Integration
 
-## Recommended Browser Setup
+## Technology Stack
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- **Vue 3** - Progressive JavaScript framework
+- **TypeScript** - Type safety
+- **Vue Router** - Client-side routing
+- **Tailwind CSS** - Utility-first styling
+- **Marked.js** - Markdown parsing
+- **DOMPurify** - XSS protection
+- **Lucide Vue** - Icon library
+- **Vite** - Build tool
 
-## Type Support for `.vue` Imports in TS
+## Installation
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+\`\`\`bash
+# Clone repository
+git clone <your-new-repo-url>
+cd markdown-preview-vue
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Run development server
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
+# Build for production
 npm run build
-```
+\`\`\`
 
-### Lint with [ESLint](https://eslint.org/)
+## Project Structure
 
-```sh
-npm run lint
-```
+\`\`\`
+src/
+├── components/       # Reusable Vue components
+├── composables/      # Vue composition functions (like React hooks)
+├── views/           # Page components
+├── services/        # API integration
+├── types/           # TypeScript type definitions
+├── router/          # Vue Router configuration
+└── utils/           # Utility functions
+\`\`\`
+
+## Author
+
+**Emmanuel Ajibola**
+- GitHub: [@Emiderex](https://github.com/Emiderex)
+- Email: ajbolae123@gmail.com
+
+## Conversion Note
+
+This project was converted from React TypeScript to Vue 3 + TypeScript as part of a learning exercise. The original React version can be found at: [markdown-preview-app](https://github.com/Emiderex/markdown-preview-app)
+
+## License
+
+MIT License
+\`\`\`
